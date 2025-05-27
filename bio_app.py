@@ -22,7 +22,7 @@ from matplotlib import pyplot as plt
 
 
 # Tableone 이용 데이터 출력
-!pip install tableone
+pip install tableone
 
 try:
     from tableone import TableOne, load_dataset
@@ -772,7 +772,7 @@ if __name__ == "__main__":
 
 
 
-!pip install streamlit
+pip install streamlit
 
 import streamlit as st
 import os
